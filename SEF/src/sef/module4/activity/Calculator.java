@@ -13,6 +13,7 @@ public class Calculator {
 	
 	private String calculatorType;
 	public static final String CALC_TYPE_BASIC = "Basic";
+	public static final String CALC_TYPE_NORMAL = "Normal";
 	
 	// Default constructor
 	public Calculator() {}
@@ -33,7 +34,7 @@ public class Calculator {
 	}
 	
 	// Add 
-	public int add(object) {
+	public int add(int x, int y) {
 		int sum = x + y;
 		return sum;
 	}
