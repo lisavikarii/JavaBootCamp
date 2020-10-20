@@ -5,12 +5,12 @@ package sef.module4.activity;
  *
  */
 public class CalculatorClient {
+	public static 
 
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		
 		/*Instantiate Normal Calculator. Note that CALC_TYPE_NORMAL is a public static
 		 *final variable defined in Calculator class. 
 		*/

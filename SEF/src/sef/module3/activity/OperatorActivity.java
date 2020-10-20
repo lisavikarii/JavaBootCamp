@@ -12,11 +12,11 @@ public class OperatorActivity {
 	public static void main(String[] args) {
 		
 		// Declare numbers to be operated
-		int i = 8;
-		int j = 5;
+		int a = 10;
+		int b = 100;
 		
 		// Subtract numbers
-		int result = i-j;
+		int result = a-b;
 		
 		// Print result
 		System.out.println("Difference = " + result);
@@ -25,8 +25,8 @@ public class OperatorActivity {
 		
 		
 		// Print result
-		
-		
+		result= a + b;
+		System.out.println("Addition = " + result);
 	}
 
 }
