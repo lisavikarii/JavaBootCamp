@@ -18,7 +18,7 @@ public class ListActivityTest {
 	}
 
 	@Test
-	public void testMain() {
+	public void createTest() {
 		
 		fail("Not yet implemented");
 	}

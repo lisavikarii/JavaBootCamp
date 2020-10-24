@@ -5,11 +5,16 @@ package sef.module8.activity;
 
 public class TryCatchFinallyActivity {
 public static void main(String[] args) {
-	TryCatchFinallyActivity obj=new TryCatchFinallyActivity();
+	try {
+	TryCatchFinallyActivity obj = new TryCatchFinallyActivity();
 	obj.catchMeIfYouCan();
+} catch (Exception e) {
+	System.out.println("Error in exception");
+	}
 }
 
-void catchMeIfYouCan()
+
+public void catchMeIfYouCan()
 {
 	int [] arr={0,1,2,3,4,5,6,7,8,9};
 	
@@ -17,8 +22,6 @@ void catchMeIfYouCan()
 	{
 		System.out.println(arr[i]);
 	}
-	
-	
 	
 	System.out.println("This should get printed even if there is an exception");
 	

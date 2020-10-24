@@ -22,19 +22,24 @@ public class EmployeeJDBCTest extends TestCase {
 
 	public void testFindEmployeeById_MatchFound() {
 		//complete the code here
+		Employee el  = emp.findEmployeeById("");
+		assertNotNull(el);
 	}
 
 	public void testFindEmployeeById_NoMatchFound() {
 		//complete the code here
+		C = emp.findEmployeeById();
 	}
 	
 	
 	public void testFindEmployeeByName_MatchFound() {
 		//complete the code here
+		Connection con = emp.findEmployeesByName(name);
 	}
 	
 	public void testFindEmployeeByName_NoMatchFound() {
 		//complete the code here
+		Connection con = emp.findEmployeesByName();
 	}
 
 	public void testFindEmployeeBySalary_MatchFound() {
